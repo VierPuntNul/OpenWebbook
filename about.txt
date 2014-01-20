@@ -1,0 +1,5 @@
+Theme name:    OpenWebbook Theme 
+Description:   Anchor CMS theme based upon Mozilla Sandstone Styleguide
+Author name:   Wouter Vandenneucker
+Author site:   http://VierPuntNul.be
+License:       creativecommons.org/licenses/by-sa/3.0/

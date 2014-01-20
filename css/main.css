@@ -59,17 +59,124 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-    overflow-x: hidden;
-}
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700,light);
+
 @font-face{
         src:url("../fonts/pictos-regular-webfont.ttf") format("truetype"), url("../fonts/pictos-regular-webfont.otf") format("opentype"), url("../fonts/pictos-regular-webfont.svg") format("svg");
         font-family:icon;
 }
 
-body, h1, h2, h3, h4, h5, h6, a, p{
-    font-family: "Open Sans";
+body{
+    overflow-x: hidden;
+    
+    background: #f5f1e8 url("../img/bg/bg-sand.png") repeat;
+    background: url("../img/bg/bg-gradient-sand.png") repeat-x 0 0,url("../img/bg/bg-sand.png") repeat 0 0, #6A7B86;
+    
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", Sans;
+    color: #fff;
+}
+
+.large {
+  font-weight: normal;
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 100%;
+  font-weight: 300;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 100%;
+  font-weight: 300;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+  font-weight: 300;
+}
+h4 {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+  font-weight: 300;
+}
+.small, small {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+
+.mainmenu{
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+}
+
+.mainmenu a,.mainmenu a:link,.mainmenu a:active{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+}
+.mainmenu a:hover{
+    /*color: #00539F;*/
+}
+.mainmenu a.active{
+    color: #CCC;
+}
+
+
+.hero{
+    padding-top: 100px;
+    padding-bottom: 60px;
+    display: inline-block;
+}
+
+.well{
+    background: #424f5a;
+    width: 99%;
+    border-radius: 3px;
+    
+    display: inline-block;
+}
+
+.well .onerow{
+    padding: 0 20px;
+}
+
+.well li{
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+}
+
+#blog h1 span{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+.article h2 span{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: normal;
+}
+
+#categories{
+    text-align: center;
 }
 
 footer{
@@ -82,58 +189,27 @@ footer p{
     color: white;
 }
 
-/*Wordpress image styles*/
-img.alignright {float:right; margin:0 0 1em 1em}
-img.alignleft {float:left; margin:0 1em 1em 0}
-img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 1em 1em}
-a img.alignleft {float:left; margin:0 1em 1em 0}
-a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-    ul.mainmenu{
-        float: right;
-        margin-top: 2em;
+    #blog{
+        margin-top: 50px;
     }
-    ul.mainmenu li{
-        float: left;
-        margin-left: 1em;
-        margin-right: 0;
+    .mainmenu{
+        font-weight: bold;
+        float: right;
         display: block;
     }
-    ul.mainmenu li a,ul.mainmenu li a:link,ul.mainmenu li a:active,ul.mainmenu li a:visited{
-        color: #444;
-        background: none;
+    .mainmenu a,.mainmenu a:link,.mainmenu a:active{
+        margin-left: 30px;
     }
-    ul.mainmenu li.active a,ul.mainmenu li.active a:link,ul.mainmenu li.active a:active,ul.mainmenu li.active a:visited{
-        color: #EEE;
-        background: #c63c0c;
+    .well{
+        padding-bottom: 30px;
     }
-    ul.mainmenu li a:hover{
-        color: white;
-        background: #c63c0c;
-    }
-    ul.mainmenu li.active a:hover{
-        color: #fff;
-    }
-    .read-more{
-        display: inline-block;
-        float: left;
+    #categories{
         text-align: left;
-        margin-bottom: 40px;
-    }
-    
-    footer p.social{
-            text-align: right;
-            line-height: 40px;
-    }
-    footer p.copy{
-        text-align: left;
-        line-height: 40px;
     }
 }
 
