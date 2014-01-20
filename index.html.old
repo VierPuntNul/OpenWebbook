@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>One Percent CSS Grid Turbocharged with HTML5 Boilerplate</title>
+        <meta name="description" content="One% CSS Grid is a 12 column fluid CSS grid system. It’s been designed as a base for building responsive web layouts easy, quick and with minimum effort. You don’t have to take care of resizing and rearanging your layout for each platform separatelly. All this will do One% CSS Grid for you." />
+	<meta name="keywords" content="responsive, mobile, grid, layout, system, framework, fluid, web design, design" />
+	<meta name="author" content="Matt Imling / mattimling.com © 2012" />
+        <meta name="viewport" content="width=device-width"/>
+
+	<meta property="og:title" content="One% CSS Grid - 12 Columns Fluid CSS Grid System" />
+	<meta property="og:description" content="One% CSS Grid is a 12 column fluid CSS grid system. It’s been designed as a base for building responsive web layouts easy, quick and with minimum effort. You don’t have to take care of resizing and rearanging your layout for each platform separatelly. All this will do One% CSS Grid for you." />
+	<meta property="og:image" content="http://onepcssgrid.mattimling.com/assets/images/fb-image.jpg" />
+	<meta property="og:url" content="http://onepcssgrid.mattimling.com" />
+	<meta property="og:site_name" content="One% CSS Grid - 12 Columns Fluid CSS Grid System" />
+ 
+	<link rel="shortcut icon" href="http://onepcssgrid.mattimling.com/assets/images/favicon.ico" />
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/onepcssgrid.css" />
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <style>
+		body {
+			margin-top: 20px;
+		}
+
+		.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
+		    /*margin-bottom: 20px;*/
+                    text-align: left;
+		}
+                
+                .fullcol, .col1.default, .col2.default, .col3.default, .col4.default, .col5.default, .col6.default, .col7.default, .col8.default, .col9.default, .col10.default, .col11.default, .col12.default {
+			background: #801255;
+			color: #fff;
+			margin-bottom: 20px;
+			text-align: left;
+			padding: 20px 0;
+		}
+                .onerow{
+			clear: both;
+                }
+		
+		.most-right{
+			text-align: right;
+		}
+		.article{
+			text-align: left;
+		}
+		.inline-block{
+			display: inline-block;
+		}
+
+		@media all and (max-width: 768px) {
+			
+                        .fullrow{
+                            margin-top: -80px;
+                        }
+		}
+
+                
+	</style>
+        
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        
+        
+        <div class="onepcssgrid-1200">
+		
+			<header>
+				<div class="onerow">
+					<div class="col12 most-right last">
+						<div class="mainmenu">
+							<a href="#" class="active">HOME</a>
+							<a href="#">ABOUT</a>
+							<a href="#">SOFTWARE</a>
+							<a href="#">HARDWARE</a>
+							<a href="#">PARTNERS</a>
+							<a href="#">GITHUB</a>
+							<a href="#">CONTACT</a>
+						</div>
+					</div>
+				</div>
+				<div class="onerow hero">
+					<div class="col7">
+						<span class="large">OpenWebbook</span>
+						<h1 style="font-style: italic; font-family: 'Open Sans'; margin-top: 10px;">The Quest for an Open Webcentric OS for Secondary Devices.</h1>
+					</div>
+					<div class="col5 last">
+						<img src="img/notebook.png" />
+					</div>
+				</div>
+			</header>
+
+			
+			
+			<section id="objectives" class="well">
+				<div class="onerow">
+					<div class="col12">
+						<h1>Objectives:</h1>
+					</div>
+				</div>
+				
+				<div class="onerow">
+					<div class="col4">
+						<li>Find start OS</li>
+						<li>Compare OS with alternatives</li>
+					</div>
+					<div class="col4">
+						<li>Write down Goals and Milestones</li>
+						<li>Find Partners</li>
+					</div>
+					<div class="col4 last">
+						<li>Find development device</li>
+					</div>
+				</div>
+				
+				<div class="spacer inline-block"></div>
+			</section>
+			
+			
+			<section id="blog">
+				<div class="onerow">
+					<div class="col12">
+						<h1>The OpenWebbook Dev Blog<br/>
+						<span>A view into the story behind this Quest</span></h1>
+					</div>
+				</div>
+				
+				<div class="onerow">
+					<div class="col8">
+						<div class="article">
+							<h2>How it all started<br />
+							<span>By Wouter Vandenneucker on Jan 19, 2014</span></h2>
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero sem, suscipit id ipsum id, consequat tincidunt nisi. Vestibulum vel rutrum nibh, vel facilisis odio. Pellentesque id dolor a felis faucibus suscipit nec ut eros. Quisque vitae augue elit. Mauris pulvinar rutrum lacus ut congue. Aenean hendrerit imperdiet condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam blandit scelerisque enim a adipiscing. Fusce sit amet mauris scelerisque, faucibus lorem sed, ultricies est.</p>
+							<p>Nam aliquet hendrerit est, ac vulputate felis ornare in. Vestibulum eu nisl convallis, sollicitudin turpis in, porta magna. Nam ante dui, feugiat sodales metus ut, pretium viverra risus. Proin at turpis molestie orci luctus vestibulum non eu neque. Cras sed egestas leo, in tincidunt tellus. Aliquam nec diam ut orci interdum volutpat. Sed nisl lacus, interdum in sem eget, sollicitudin viverra felis. Nam vitae cursus ante. Aliquam a lacinia tortor. Integer ultricies libero at porta posuere. Morbi sapien arcu, tempus et dignissim non, facilisis eu metus. Aenean urna metus, commodo ut tristique nec, tristique mattis tortor. Maecenas vulputate ipsum lacus, ac ultricies odio vehicula ut. Nullam sed ligula nisi. Cras commodo purus lacus, vitae dignissim sem accumsan eu.</p>
+							<p>Etiam quis magna sapien. Suspendisse ac dictum ante. Duis molestie ligula volutpat molestie adipiscing. Duis metus enim, consequat vitae massa at, molestie accumsan sem. Aenean diam diam, iaculis a auctor a, pellentesque quis massa. Pellentesque tempus nibh id risus varius tincidunt. Cras egestas diam consequat metus mollis, sed convallis nisi porta. Nam feugiat ipsum rhoncus, sagittis lectus id, aliquam dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris pulvinar sem massa, id sodales tellus feugiat quis. Duis nulla tortor, viverra quis mollis a, vestibulum sit amet felis. Praesent convallis lectus non cursus luctus. Fusce ullamcorper luctus fermentum. Sed quis nisl turpis. Nulla enim dui, vehicula in arcu vitae, lobortis dignissim erat.</p>
+							<p>Fusce quis est ac purus elementum hendrerit eget sit amet eros. Curabitur quis pretium nunc. Etiam ornare nunc sed ipsum adipiscing tincidunt. Duis fringilla volutpat iaculis. Pellentesque condimentum imperdiet dui tincidunt lacinia. Mauris sapien felis, posuere et venenatis eget, convallis vitae eros. Pellentesque ultrices libero ut ipsum consequat, ac facilisis lorem auctor. Sed vel ullamcorper augue, in mollis velit. Integer lobortis ligula eu nisl ultrices bibendum. Suspendisse placerat quam justo, laoreet cursus magna suscipit rutrum. Etiam non facilisis velit. Nullam vel luctus justo, a facilisis risus. Nulla nec condimentum tellus. Curabitur sagittis, augue viverra accumsan euismod, metus augue consequat risus, interdum accumsan diam enim eget lorem. Praesent vulputate eget risus ac porttitor. Mauris iaculis ac lorem nec pretium.</p>
+							<p>Nam hendrerit varius dolor, sed pellentesque ante euismod ac. Duis felis ligula, molestie sed lacus vel, convallis ornare felis. Donec consectetur, elit vitae congue semper, lorem lorem convallis eros, vitae luctus felis elit a magna. Quisque euismod, magna at consectetur rhoncus, nunc ligula hendrerit est, eget aliquet arcu dolor ac turpis. Etiam dictum elementum arcu, id pharetra leo egestas sit amet. Quisque posuere ut eros eu lacinia. Donec dui est, blandit nec dapibus a, consequat eu lacus. Curabitur interdum, sem aliquam lacinia faucibus, risus velit aliquam orci, non bibendum quam eros vitae orci. In porta lacinia diam, eu faucibus dolor luctus non. Vivamus a elit magna.</p>
+						</div>
+						
+					</div>
+					<div class="col4 last" id="categories">
+						<h3>Categories</h3>
+						<hr />
+						<ul>
+							<li>Software</li>
+							<li>Hardware</li>
+							<li>General</li>
+							<li>Partnerships</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+			</section>
+		</div>
+        
+        
+        
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $("")
+        </script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
