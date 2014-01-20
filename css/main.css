@@ -175,6 +175,15 @@ h4 {
     letter-spacing: normal;
 }
 
+#blog a,#blog a:link,#blog a:visited,#blog a:active{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+#blog a:hover{
+    color: #00539F;    
+}
+
 #categories{
     text-align: center;
 }
