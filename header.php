@@ -104,9 +104,9 @@
                                                                         </a>
                                                                 <?php endwhile; ?>
                 
-                                                                <li class="tray">
+                                                                <!--<li class="tray">
                                                                         <a href="#tray" class="linky"><img src="<?php echo theme_url('img/categories.png'); ?>" alt="Categories" title="View my posts by category"></a>
-                                                                </li>
+                                                                </li>-->
                                                 </div>
                                             <?php endif; ?>
                                             

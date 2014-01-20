@@ -39,8 +39,8 @@
 						<?php if(has_posts()): ?>
 								<?php posts(); ?>
 								<div class="article">
-										<h2><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a><br />
-										<span>By <?php echo article_author('real_name'); ?> on <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time></span></h2>
+										<h2 title="<?php echo article_title(); ?>"><?php echo article_title(); ?><br />
+										<span><time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?></span></h2>
 					
 										<div class="content">
 											<?php echo article_markdown(); ?>
@@ -50,7 +50,7 @@
 								<?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
 								<div class="article">
 										<h2><a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a><br />
-										<span>By <?php echo article_author('real_name'); ?> on <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time></span></h2>
+										<span><time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?></span></h2>
 								</div>
 								<?php endwhile; ?>
 					

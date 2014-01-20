@@ -180,13 +180,20 @@ h4 {
 }
 
 footer{
-    background: #c63c0c;
+    margin-top: 20px;
+    background: #424f5a;
     overflow: auto;
     padding: 1em;
     width: 100%;
 }
 footer p{
     color: white;
+}
+
+footer a, footer a:link, footer a:visited, footer a:active, footer a:hover{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 /* ==========================================================================
@@ -211,6 +218,11 @@ footer p{
     #categories{
         text-align: left;
     }
+    .footer-spacer{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
 }
 
 @media print,
